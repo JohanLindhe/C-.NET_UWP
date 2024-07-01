@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Calculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <TextBlock HorizontalAlignment="Left" Margin="41,17,0,0" TextWrapping="Wrap" Text="Calculator" VerticalAlignment="Top" Height="48" Width="172" FontSize="36" RenderTransformOrigin="-0.465,0.271"/>
+        <TextBox Name="input" HorizontalAlignment="Left" Margin="16,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="44" FontWeight="Bold" FontFamily="Arial Black"/>
+
+        <Button Content="1" Margin="16,124,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="2" Margin="71,124,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="3" Margin="126,124,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="/" Margin="181,124,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="4" Margin="16,179,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="5" Margin="71,179,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="6" Margin="126,179,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="*" Margin="181,179,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="7" Margin="16,234,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="8" Margin="71,234,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="9" Margin="126,234,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="-" Margin="181,234,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="0" Margin="16,289,0,0" VerticalAlignment="Top" Height="50" Width="105" FontSize="20" FontWeight="Bold" Background="#19000000" Click="Button_Click"/>
+        <Button Content="=" Margin="126,289,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="+" Margin="181,289,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="C" Margin="181,70,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" FontWeight="Bold" Background="#FFFF6B15" Click="Button_Click"/>
+
+
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,1 @@
+C:\Users\lindh\source\repos\Calculator\Calculator\Calculator.csproj;x86
